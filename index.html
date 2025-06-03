@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Tienda Electrónica</title>
+  <link rel="stylesheet" href="style.css" />
+  <script defer src="script.js"></script>
+  <link rel="preconnect" href="https://fonts.googleapis.com"  />
+  <link rel="preconnect" href="https://fonts.gstatic.com"  crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+</head>
+<body>
+  <header>
+    <div class="container">
+      <h1><i class="fas fa-bolt"></i> ElectroShop</h1>
+      <nav>
+        <ul>
+          <li><a href="#productos">Productos</a></li> 
+          <li><a href="#contacto">Contacto</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section id="banner">
+      <div class="container">
+        <h2>Explora la mejor tecnología</h2>
+        <p>Portátiles, smartphones, accesorios y más.</p>
+      </div>
+    </section>
+
+    <section id="productos" class="container">
+      <h2>Catálogo</h2>
+      <div class="grid" id="product-list">
+        <!-- Productos dinámicos -->
+      </div>
+    </section>
+
+    <section id="contacto" class="container">
+      <h2>Contáctanos</h2>
+      <form id="form-contacto">
+        <input type="text" placeholder="Nombre" required />
+        <input type="email" placeholder="Correo electrónico" required />
+        <textarea placeholder="Mensaje"></textarea>
+        <button type="submit">Enviar</button>
+      </form>
+    </section>
+  </main>
+
+  <footer>
+    <div class="container">
+      <p>&copy; 2025 ElectroShop. Todos los derechos reservados.</p>
+    </div>
+  </footer>
+</body>
+</html>
