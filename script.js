@@ -48,3 +48,12 @@ form.addEventListener('submit', e => {
   alert('¡Gracias por contactarnos! Te responderemos pronto.');
   form.reset();
 });
+
+// Desplegar todos los FAQs por defecto si pantalla es grande
+document.addEventListener('DOMContentLoaded', () => {
+  if (window.innerWidth > 768) {
+    document.querySelectorAll('#faq details').forEach(det => {
+      det.setAttribute('open', true);
+    });
+  }
+});

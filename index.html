@@ -7,7 +7,7 @@
   <link rel="stylesheet" href="style.css" />
   <script defer src="script.js"></script>
   <link rel="preconnect" href="https://fonts.googleapis.com"  />
-  <link rel="preconnect" href="https://fonts.gstatic.com"  crossorigin />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet" />
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
 </head>
@@ -17,8 +17,11 @@
       <h1><i class="fas fa-bolt"></i> ElectroShop</h1>
       <nav>
         <ul>
-          <li><a href="#productos">Productos</a></li> 
+          <li><a href="#productos">Productos</a></li>
           <li><a href="#contacto">Contacto</a></li>
+          <li><a href="#testimonios">Testimonios</a></li>
+          <li><a href="#faq">FAQ</a></li>
+          <li><a href="#servicios">Servicios</a></li>
         </ul>
       </nav>
     </div>
@@ -48,11 +51,86 @@
         <button type="submit">Enviar</button>
       </form>
     </section>
+
+    <section id="testimonios" class="container">
+      <h2>Lo que dicen nuestros clientes</h2>
+      <div class="grid">
+        <blockquote>
+          <p>“Excelente calidad y atención al cliente. Mi portátil llegó al día siguiente.”</p>
+          <footer>— Laura G.</footer>
+        </blockquote>
+        <blockquote>
+          <p>“Los precios más bajos que encontré y con garantía incluida.”</p>
+          <footer>— Marcos R.</footer>
+        </blockquote>
+        <blockquote>
+          <p>“Compré un teclado mecánico y funciona de maravilla. Muy recomendable.”</p>
+          <footer>— Ana P.</footer>
+        </blockquote>
+      </div>
+    </section>
+
+    <section id="faq" class="container">
+      <h2>Preguntas Frecuentes</h2>
+      <details>
+        <summary>¿Hacen envíos a todo el país?</summary>
+        <p>Sí, realizamos envíos a todas las provincias en un plazo de 24 a 72 horas.</p>
+      </details>
+      <details>
+        <summary>¿Los productos tienen garantía?</summary>
+        <p>Todos nuestros productos incluyen garantía de fábrica de 1 año mínimo.</p>
+      </details>
+      <details>
+        <summary>¿Puedo pagar en cuotas?</summary>
+        <p>Aceptamos tarjetas de crédito hasta 12 cuotas sin interés.</p>
+      </details>
+    </section>
+
+    <section id="servicios" class="container">
+      <h2>¿Por qué elegirnos?</h2>
+      <ul class="servicios">
+        <li><i class="fas fa-shipping-fast"></i> Envío rápido y seguro</li>
+        <li><i class="fas fa-sync-alt"></i> Devoluciones sin complicaciones</li>
+        <li><i class="fas fa-shield-alt"></i> Garantía en todos los productos</li>
+        <li><i class="fas fa-headset"></i> Soporte técnico 24/7</li>
+      </ul>
+    </section>
+
+    <section id="ofertas" class="container">
+      <h2>Promociones Destacadas</h2>
+      <div class="grid">
+        <div class="card">
+          <img src="img/smartwatch2.webp" alt="Oferta 1">
+          <h3>Smartwatch Sport</h3>
+          <p>Monitor de salud, resistente al agua</p>
+          <div class="precio">49.99 &euro;</div>
+        </div>
+        <div class="card">
+          <img src="img/tablet10.jpg" alt="Oferta 2">
+          <h3>Tablet 10"</h3>
+          <p>Ideal para estudiar y ver contenido multimedia</p>
+          <div class="precio">129.99 &euro;</div>
+        </div>
+      </div>
+    </section>
   </main>
 
   <footer>
     <div class="container">
-      <p>&copy; 2025 ElectroShop Todos los derechos reservados.</p>
+      <p>&copy; 2025 ElectroShop. Todos los derechos reservados.</p>
+      <nav>
+        <ul class="footer-links">
+          <li><a href="#productos">Productos</a></li>
+          <li><a href="#contacto">Contacto</a></li>
+          <li><a href="#faq">FAQ</a></li>
+          <li><a href="#servicios">Servicios</a></li>
+        </ul>
+      </nav>
+      <div class="social">
+        <a href="#"><i class="fab fa-facebook-f"></i></a>
+        <a href="#"><i class="fab fa-instagram"></i></a>
+        <a href="#"><i class="fab fa-twitter"></i></a>
+      </div>
     </div>
   </footer>
 </body>
